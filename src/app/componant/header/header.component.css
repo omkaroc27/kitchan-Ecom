@@ -1,0 +1,21 @@
+.from-con{
+   border: 2px;
+   width: 400px;
+   margin-right: 330px;
+   background-color: rgb(247, 247, 247);
+   border-radius: 0.1em;
+}
+.search1{
+                    position: absolute;
+                    z-index: 10;
+                    right: 33%;
+                    top: 40%;
+                    color: rgb(0, 14, 90);
+                 
+}
+.Profile{
+   font-size: 30px;
+   color: rgb(99, 92, 0);
+  
+  
+}

@@ -1,0 +1,24 @@
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets\img\home2.jpg" class="d-block w-100" height="500px" width="200px">
+                      </div>
+                     
+                    </div>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+<div class="container">
+                    <div class="row">
+                                        <ng-container *ngFor="let item of productList">
+                                                            <div class="card col-md-3">
+                                                                                <img src="assets\img\home.jpg" alt="">
+                                                                                <h5>Kitchan Product</h5>
+                                                                                <p style="font-size: xx-small;">Just Grab this Product</p>
+                                                                                <p><strong>Price:</strong>${{item.price}}</p>
+                                                                                <button class="btn btn-primary" (click)=addtocart(item)>Add to cart</button>
+                                                            </div>
+                                        </ng-container>
+                    </div>
+</div>
